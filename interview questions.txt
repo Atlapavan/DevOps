@@ -1,0 +1,20 @@
+1.explain git architecture?
+ans :-Git is a distributed version control system that is widely used in software development. It is designed to handle projects with high speed and efficiency, and allows developers to work together on the same project. Git is an open-source tool that was created by Linus Torvalds in 2005 to develop Linux Kernel 1.
+
+The architecture of Git is based on a content-addressable filesystem that is made up of objects. These objects form a hierarchy that mirrors the content’s filesystem tree. Git has three main primitive types it uses to represent content for a repository: trees, blobs, and commits 2.
+
+All content is essentially stored as either tree or blob objects. Trees represent directories, while blobs represent files. Commits are used to store metadata about changes to the repository, such as the author, date, and commit message 2.
+
+Git enables full branching capability using directed acyclic graphs to store content. The history of a file is linked all the way up its directory structure (via nodes representing directories) to the root directory, which is then linked to a commit node. This commit node, in turn, can have one or more parents 3.
+
+Git’s architecture allows it to be scalable and distributed. It can handle minor to major projects with high speed and efficiency, and co-ordinate the work among developers. Git is easy to learn and has fast performance, making it superior to other SCM tools like Subversion, CVS, Perforce, and ClearCase 
+2.different b/w virtualization & cotainerazation
+Virtualization and containerization are two different technologies used for running applications. Virtualization is a technology that allows users to run multiple virtual machines (VMs) on a single physical server or host machine. It enables the creation of separate and isolated environments, each with its own operating system (OS) and applications, on a shared hardware infrastructure 12.
+
+On the other hand, containerization is a lightweight alternative to virtualization that allows multiple applications to run on the same OS kernel without the need for a hypervisor. Containers are isolated from each other and from the host system, but they share the same OS kernel 32.
+
+The main difference between virtualization and containerization is how they separate the host server OS from the programs that run in them. While virtualization uses a hypervisor to detach and virtualize the OS into multiple “operating systems,” containerization uses a container engine to isolate the programs from the OS 3.
+
+Virtualization provides strong isolation between VMs, while containerization provides less isolation but improved features. Virtualization has high resource overhead, while containerization has minimal resource overhead. Virtualization has limited portability between platforms, while containerization is highly portable across different platforms 1.
+
+In summary, virtualization and containerization serve different needs and are not mutually exclusive. Organizations often employ a hybrid approach, leveraging the strengths of each technology based on specific requirements 4. 
